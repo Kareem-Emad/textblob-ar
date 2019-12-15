@@ -53,6 +53,7 @@ pylintrc
 
 ### Extra models and data ###
 
+data
 text/*.pickle
 text/en/*.pickle
 

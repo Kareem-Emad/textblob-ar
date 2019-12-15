@@ -63,6 +63,9 @@ def read(fname):
         content = fp.read()
     return content
 
+subprocess.call('chmod +x ./download_data.sh', shell=True)
+subprocess.call('./download_data.sh', shell=True)
+
 setup(
     name='textblob-ar',
     version=__version__,
